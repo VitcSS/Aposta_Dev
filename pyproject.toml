@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "aposta-dev"
+version = "0.1.0"
+description = ""
+authors = ["Vic <vitcorreas@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+requests = "^2.31.0"
+pyspark = "^3.5.0"
+ipykernel = "^6.25.2"
+numpy = "^1.26.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
